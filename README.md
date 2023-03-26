@@ -10,7 +10,7 @@ simple app with adaptive menu
 
 # poetry shell
 # ----------
-**or**
+# **or**
 # ----------
 # python -m venv env
 
