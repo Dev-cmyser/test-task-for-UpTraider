@@ -2,20 +2,20 @@
 simple app with adaptive menu
 
 
-git clone
+# git clone
 
-cd test-task-for-UpTraider
-----------
-poetry install
+# cd test-task-for-UpTraider
+# ----------
+# poetry install
 
-poetry shell
-----------
-or
-----------
-python -m venv env
+# poetry shell
+# ----------
+**or**
+# ----------
+# python -m venv env
 
-source env/Scripts/activate
+# source env/Scripts/activate
 
-pip install -r requirements.txt
-----------
-python manage.py runserver
+# pip install -r requirements.txt
+# ----------
+# python manage.py runserver
