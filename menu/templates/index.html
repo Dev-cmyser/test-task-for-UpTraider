@@ -1,0 +1,32 @@
+{% load menu_tag %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Main{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    
+    
+    
+    <div class="menu-container">
+        <h1>Menu</h1>
+        {% draw_menu 'main_menu' %}
+        <main>
+            {% block content %}
+            <p>default content</p>
+            {% endblock %}
+          </main>
+          <footer>
+            <p>&copy; 2023 Кирилл Новгородцев</p>
+          </footer>
+    </div>
+    
+    
+      
+    
+</html>

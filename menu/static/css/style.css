@@ -1,0 +1,82 @@
+/* Styles for menu links */
+.link {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .link:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styles for menu items with submenus */
+  .has-children {
+    position: relative;
+  }
+  
+  .has-children > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .has-children:hover > ul {
+    display: block;
+  }
+  
+  /* Styles for main menu container */
+  .menu-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for main menu */
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles for main menu items */
+  .main_menu > li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .main_menu > li > a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .main_menu > li:hover > a {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styles for submenu items */
+  .menu ul li {
+    display: block;
+  }
+  
+  /* Styles for submenu links */
+  .menu ul li a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #f0f0f0;
+  }
+  
